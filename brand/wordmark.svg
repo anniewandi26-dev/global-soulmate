@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 64" fill="none">
+  <defs>
+    <linearGradient id="wg" x1="0" y1="0" x2="520" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".7" stop-color="#F7F3FF"/>
+      <stop offset="1" stop-color="#B37BFF"/>
+    </linearGradient>
+  </defs>
+  <text x="0" y="46" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="36" font-weight="800" letter-spacing="1.5" fill="url(#wg)">GLOBAL SOULMATE</text>
+</svg>

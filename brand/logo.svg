@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="ring" x1="16" y1="12" x2="112" y2="116" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B2CFF"/>
+      <stop offset=".5" stop-color="#C04DFF"/>
+      <stop offset="1" stop-color="#FF3D9A"/>
+    </linearGradient>
+    <linearGradient id="heart" x1="42" y1="38" x2="90" y2="92" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8EC8"/>
+      <stop offset="1" stop-color="#3EE6D1"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#160B28"/>
+      <stop offset="1" stop-color="#05030A"/>
+    </linearGradient>
+    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="2.8" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#tile)"/>
+  <rect x="2.5" y="2.5" width="123" height="123" rx="28" stroke="url(#ring)" stroke-opacity=".5" stroke-width="2"/>
+  <g filter="url(#glow)">
+    <circle cx="64" cy="64" r="34" stroke="url(#ring)" stroke-width="3.2"/>
+    <ellipse cx="64" cy="64" rx="15" ry="34" stroke="url(#ring)" stroke-width="2" opacity=".9"/>
+    <path d="M31 64h66M35 47h58M35 81h58" stroke="url(#ring)" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+  </g>
+  <path filter="url(#glow)" d="M64 90c-12.4-9-25.8-19.1-25.8-31.8C38.2 48.2 45.4 42 53.4 42c4.7 0 8.3 2.2 10.6 5.7C66.3 44.2 69.9 42 74.6 42c8 0 15.2 6.2 15.2 16.2C89.8 70.9 76.4 81 64 90z" fill="url(#heart)"/>
+  <circle cx="94" cy="34" r="3.2" fill="#3EE6D1"/>
+</svg>
